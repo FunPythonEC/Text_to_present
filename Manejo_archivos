@@ -17,3 +17,8 @@ f.close()
 f= open("Hola2.txt","a") # se eua el metodo append
 f.write(" + agregado")
 f.close()
+
+#Anexar texto a un archivo existente
+f= open("Hola2.txt","a") # se eua el metodo append
+f.write(" + agregado")
+f.close()
