@@ -1,0 +1,3 @@
+#Creamos el archivo con el nombre hola.txt
+f= open("Hola2.txt","w")
+f.close()
