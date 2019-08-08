@@ -1,3 +1,8 @@
 #Creamos el archivo con el nombre hola.txt
 f= open("Hola2.txt","w")
 f.close()
+
+#Escribimos en el archivo
+f= open("Hola2.txt","w")
+f.write("Salduos")
+f.close()
