@@ -27,3 +27,9 @@ f.close()
 with open('Hola2.txt','r') as f:
     for linea in f:
         print(linea)
+
+--- Sin testear
+#Leer un archivo
+with open('cloudbutton.py', 'r') as f:
+    contenido = f.read()
+    print(contenido)
