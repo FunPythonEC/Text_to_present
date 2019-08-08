@@ -22,3 +22,8 @@ f.close()
 f= open("Hola2.txt","a") # se efectua el metodo append
 f.write(" + agregado")
 f.close()
+
+# Leer linea por linea
+with open('Hola2.txt','r') as f:
+    for linea in f:
+        print(linea)
