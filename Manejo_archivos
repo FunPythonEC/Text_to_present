@@ -6,3 +6,9 @@ f.close()
 f= open("Hola2.txt","w")
 f.write("Salduos")
 f.close()
+
+#Leemos el archivo
+f= open("Hola2.txt","r")
+mensaje = f.read()
+print(mensaje)
+f.close()
